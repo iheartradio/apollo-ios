@@ -1,2 +1,2 @@
-github "daltoniam/Starscream" "3.0.5"
-github "stephencelis/SQLite.swift" "0.11.5"
+github "iheartradio/SQLite.swift" "933ff5b9e76e407de335574312563e894b98e588"
+github "iheartradio/Starscream" "98bb07107bde6a755b32b9470e624dfc1db47d67"

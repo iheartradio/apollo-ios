@@ -1,2 +1,2 @@
-github "stephencelis/SQLite.swift" ~> 0.11.5
-github "daltoniam/Starscream" ~> 3.0.5
+github "iheartradio/SQLite.swift" "ac/static_linking"
+github "iheartradio/Starscream" "ac/static_linking"

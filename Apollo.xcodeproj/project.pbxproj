@@ -1267,6 +1267,7 @@
 				INFOPLIST_FILE = Tests/ApolloTestSupport/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -1304,6 +1305,7 @@
 				INFOPLIST_FILE = Tests/ApolloTestSupport/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -1340,6 +1342,7 @@
 				INFOPLIST_FILE = Tests/ApolloTestSupport/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -1412,6 +1415,7 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Tests/GitHubAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1423,6 +1427,7 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Tests/GitHubAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1434,6 +1439,7 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Tests/GitHubAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1590,6 +1596,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sources/Apollo/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.Apollo;
 				PRODUCT_NAME = Apollo;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1604,6 +1611,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sources/Apollo/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.Apollo;
 				PRODUCT_NAME = Apollo;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1648,6 +1656,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1662,6 +1671,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1768,6 +1778,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Sources/Apollo/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.Apollo;
 				PRODUCT_NAME = Apollo;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1812,6 +1823,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
